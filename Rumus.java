@@ -1,13 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Latihan3;
 
-/**
- *
- * @author lenovo
- */
 public class Rumus {
+    int sisi;
+    int panjang;
+    int lebar;
+    int hasil;
     
+public Rumus() {
+        sisi = 0;
+        panjang = 0;
+        lebar = 0;
+        hasil = 0;
+        }
+
+// Method menghitung luas persegi
+    public void hitungLuasPersegi() {
+        hasil = sisi * sisi;
+        System.out.println("Luas Persegi = " + hasil);
+    }
+
+    // Method menghitung luas persegi panjang
+    public void hitungLuasPersegiPanjang() {
+        hasil = panjang * lebar;
+        System.out.println("Luas Persegi Panjang = " + hasil);
+    )
+        
+
 }
