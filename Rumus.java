@@ -6,14 +6,15 @@ public class Rumus {
     int lebar;
     int hasil;
     
-public Rumus() {
+    
+        public Rumus() {
         sisi = 0;
         panjang = 0;
         lebar = 0;
         hasil = 0;
         }
-
-// Method menghitung luas persegi
+        
+    // Method menghitung luas persegi
     public void hitungLuasPersegi() {
         hasil = sisi * sisi;
         System.out.println("Luas Persegi = " + hasil);
@@ -23,7 +24,6 @@ public Rumus() {
     public void hitungLuasPersegiPanjang() {
         hasil = panjang * lebar;
         System.out.println("Luas Persegi Panjang = " + hasil);
-    )
-        
+    }
 
 }
