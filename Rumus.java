@@ -1,4 +1,4 @@
-package latihan3;
+package Latihan3;
   //Nama : Muhammad Rezkyan Noor, NPM : 2310010087, Kelas : 4c
 public class Rumus {
     int sisi;
@@ -21,12 +21,18 @@ public class Rumus {
         return hasil;
     }
 
-    public Rumus(int sisi, int panjang, int lebar, int hasil) {
+    public Rumus(int sisi, int panjang, int lebar) {
         this.sisi = sisi;
         this.panjang = panjang;
         this.lebar = lebar;
         this.hasil = hasil;
     }
+
+    
+    }
      
      
-}
+
+
+
+
